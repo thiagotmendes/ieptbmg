@@ -1,0 +1,302 @@
+/*
+Theme Name: Betheme
+Author: Muffin group
+Description: The biggest WordPress Theme ever
+Theme URI: http://themes.muffingroup.com/betheme
+Author URI: http://muffingroup.com
+License: Themeforest Split Licence
+License URI: -
+Version: 12.9
+
+All css files are placed in /css/ folder
+*/
+
+/*Header teste*/
+.menutopo{
+	color: white;
+	background: url("http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/bg_cabeçalho.png") center top repeat-x;
+	padding:2px 0 5px 0;
+}
+.menutopo ul{
+	color: white;
+	width: 100%;
+	margin: inherit;
+}
+.menutopo ul li{
+	text-align: center;
+	color: white;
+	display: inline-block;
+	float: right;
+	padding: 5px 15px 0 3px;
+}
+.menutopo ul li a{
+	color: #fff;
+}
+
+#Top_bar #logo{
+	padding: 5px 0 !important;
+}
+
+#intro .ui-tabs .ui-tabs-nav {
+	text-align: left !important;
+}
+.ui-tabs .ui-tabs-nav li a{
+color: # !important;
+}
+a.button.button_large {
+	font-size: 100% !important;
+	line-height: 100% !important;
+}
+a.button_large .button_icon{
+padding: 15px 10px !important;
+}
+.button-flat a.button:not(.action_button){
+	border-radius: 5px !important;
+}
+#Subheader {
+	padding: 0 !important;
+}
+.fontaba{
+margin: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+.fontaba1{
+margin: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+.fontaba2{
+margin: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+.fontaba3{
+margin: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+.fontaba4{
+margin: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+}
+.testando1{
+background-color: #ccc;
+}
+.protestar{
+background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/pergunta_3_bg_site_geral_100x100px.png);
+background-repeat: repeat;
+}
+.protestar1{
+background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/pergunta_1_bg_site_geral_100x100px.png);
+	background-repeat: repeat;
+}
+.protestar2{
+background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/pergunta_2_bg_site_geral_100x100px.png);
+	background-repeat: repeat;
+}
+.artigos{
+ text-align: justify;
+ text-justify: inter-word;
+padding-top: 0;
+}
+
+.iconeteste a{
+float: right;
+margin: 0 15px;
+color: #fff;
+}
+.saibamais a{
+float: right;
+padding-top: 5px;
+}
+.saibamaisartigos a{
+float: right;
+margin: 0 10px;
+}
+.videos1{
+padding-top: 10px;
+}
+.newsletter{
+background-color: #ccc;
+width: 100% auto;
+height: 60px;
+padding-bottom: 20px;
+}
+.assinar{
+float: left;
+margin: 10px 30px;
+padding: 20px 0;
+background-color: #ccc inherit;
+}
+
+/********************************************************/
+/******* PAGINAS INTERNAS DO SITE **********************/
+
+.layout-full-width{
+	background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/bg_site_geral_100x100px.png);
+		background-repeat: repeat;
+		min-height: 600px;
+}
+.container .title{
+	padding: 25px 0;
+}
+
+.conteudo-interno{
+	padding: 30px 0;
+}
+
+.content-ieptb{
+	display: block;
+	float: left;
+}
+
+.sidebar-menupaginas{
+	width: 25%;
+	padding:0 15px;
+}
+
+.sidebar-menupaginas a{
+	font-family: "Roboto", Arial, Verdana;
+  font-size: 18px;
+  color: #00a4e3;
+	display: block;
+	padding: 0px 8px;
+	margin: 13px 0;
+	border-left: transparent solid 4px;
+	transition-duration: 0.3s;
+}
+
+.sidebar-menupaginas a:hover,
+.sidebar-menupaginas a:focus,
+.sidebar-menupaginas .activate a{
+	color: #00a4e3 !important;
+  border-left: #00a4e3 solid 4px;
+	text-decoration: none;
+}
+
+
+.conteudo-paginas{
+	width: 65%;
+	float: left;
+	padding: 0 15px;
+}
+
+.clearcontent{
+	clear: both;
+}
+
+@media( max-width:640px ){
+.sidebar-menupaginas{
+width: 100%;
+padding: 0;
+float: none;
+}
+.conteudo-paginas{
+width: 100%;
+padding: 0;
+float: none;
+}
+.content-ieptb{
+float: none;
+}
+}
+/******************************************/
+/***************NEWSLETTER*****************/
+/******************************************/
+.email1{
+	float: left;
+	font-size: 12px;
+	color: #b1b1b1;
+	border: none;
+	width: 250px;
+	height: 31px;
+	padding: 20px 0;
+}
+#botao1 {
+botton-radius: 7px;
+	cursor: pointer;
+	padding-top: 20px;
+	margin: 0 100px;
+	clear: right;
+}
+.form{
+	margin: 0;
+	padding: 0;
+	border-radius: 10px;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+.button-flat a.button:not(.action_button), .button-flat:not(.header-plain) a.button.action_button, .button-flat a.tp-button, .button-flat button, .button-flat input[type="submit"], .button-flat input[type="reset"], .button-flat input[type="button"] {
+
+	border-radius: 7px !important;
+
+}
+.input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea, select {
+	margin-bottom: 10px;
+	border-radius: 7px!important;
+}
+#neue{
+height: 80px !important;
+}
+/******************************************/
+/***************VÍDEO**********************/
+/******************************************/
+.video{
+padding-top: 10px;
+}
+.video a:hover{
+}
+.texto1{
+padding-top: 10px;
+}
+.texto1 h5{
+	font-weight: 700;
+}
+.icon-mail-line{
+  float:left;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.texto-news{
+  color: #fff;
+}
+
+/**************************/
+/****** INTERNO ARTIGOS ************/
+.mask-artigos{
+	cursor:pointer;
+}
+
+.barra-lateral-artigos{
+	border-left: #00a4e3 solid 3px;
+	min-height:800px;
+	width: 25%;
+    padding: 0 15px;
+}
+
+.barra-lateral-artigos ul li a{
+	
+}	
+
+.barra-lateral-artigos ul li a:hover{
+	
+}
+
+@media(max-width:640px){
+	.barra-lateral-artigos{
+		display:none;
+	}
+}
+.conteudo-artigo-interno{
+	padding: 30px 0;
+}
