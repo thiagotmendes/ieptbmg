@@ -7,12 +7,13 @@
 
   <style media="screen">
     .img-principal{
-        height: 300px;
+        height: 420px;
         overflow: hidden;
     }
 
     .img-principal img{
       width: 100%;
+      height: 100%;
     }
 
     .noticia-linha{
@@ -62,7 +63,7 @@
             echo "</p>"
             ?>
             <a class="button  button_right button_large button_js kill_the_icon"
-            href="<?php the_permalink() ?>"  style=" background-color:#00a4e3 !important; color:#fff;">
+            href="<?php the_permalink() ?>"  style=" background-color:#00a4e3 !important; color:#fff;float: right;">
             <span class="button_icon">
               <i class="icon-forward" style=" color:#fff !important;"></i>
             </span>
@@ -102,7 +103,10 @@
                     the_excerpt();
                   echo "</p>";
                   ?>
-                  <a href="<?php the_permalink() ?>"> Leia Mais + </a>
+                  <div class="" style="text-align:right">
+                    <a href="<?php the_permalink() ?>"> Leia Mais + </a>
+                  </div>
+
                   <?php
                 echo "</div>";
                 echo "<div style='clear:both'></div>";

@@ -3,22 +3,15 @@
   <div class="section_wrapper mcb-section-inner conteudo-interno">
     <div class="section_wrapper mcb-section-inner" style=" border-bottom:#00a4e3 solid 3px; margin-bottom:30px; padding:0 15px 15px;">
       <h3 class="icon-doc-line" style="color: #00a4e3; float: left; margin-bottom: 5px;">
-        <?php the_title(); ?>
+        Notícias
       </h3>
     </div>
       <div class="" style="clear:both"></div>
 	<?php
-		$args = array(
-			'post_type' 		=> 'artigo',
-			'posts_per_page'	=> 20,
-		);
-
-		$artigos_view = new WP_Query($args);
-
-		if($artigos_view->have_posts()):
-			while ($artigos_view->have_posts()): $artigos_view->the_post();
+		if(have_posts()):
+			while (have_posts()): the_post();
 		?>
-    	<div class="column mcb-column one-third column_photo_box ">
+    	<div class="column mcb-column one-third column_photo_box coluna-noticia">
 				<div class="photo_box  pb_left">
 					<div class="image_frame">
 						<div class="image_wrapper">
@@ -45,5 +38,9 @@
 			endwhile;
 		endif;
 	?>
+    <div class="clearfix"></div>
+    <div class="">
+      <?php wp_pagination() ?>
+    </div>
   </div>
  <?php get_footer( ); ?>

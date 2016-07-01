@@ -99,11 +99,12 @@
 						<div class="menutopo">
 							<div class="section_wrapper mcb-section-inner">
 								<ul>
-								<li><a href="http://ieptbmg.com.br/"><img src="http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/usuario1.png" height="20px" width="20px"></a></li>
+								<!--Login IEPTB-->
+								<li><a href="http://ieptbmg.com.br/" target="_blank"><img src="http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/usuario1.png" height="20px" width="20px"></a></li>
 								<!--Linkedin IEPTBMG-->
-								<li><a href="https://br.linkedin.com/"><img src="http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/linkedin1.png" height="20px" width="20px" alt = "Linkedin IEPTB-MG"></a></li>
+								<li><a href="https://br.linkedin.com/" target="_blank"><img src="http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/linkedin1.png" height="20px" width="20px" alt = "Linkedin IEPTB-MG"></a></li>
 								<!--Facebook IEPTBMG-->
-								<li><a href="https://www.facebook.com/ieptbmg"><img src="http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/facebook1.png" height="20px" width="20px" alt = "Linkedin IEPTB-MG"></a></li>
+								<li><a href="https://www.facebook.com/ieptbmg" target="_blank"><img src="http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/facebook1.png" height="20px" width="20px" alt = "Linkedin IEPTB-MG"></a></li>
 								<li><a href="#"><img src = "http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/TELEFONE1.png" alt = "(31) 2519-0500"></a></li>
 								<li><a href="http://stageieptbmg.com.br/site/contato/"><img src = "http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/contato1.png"></a></li>
 							</ul>

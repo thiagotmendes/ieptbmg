@@ -4,7 +4,7 @@
     <div class="content-ieptb conteudo-paginas">
       <div class="section_wrapper mcb-section-inner">
         <h3 class="icon-doc-line" style="color: #00a4e3; float: left; margin-bottom: 5px;">
-          <?php the_title(); ?>
+          Notícias
         </h3>
       </div>
       <?php
@@ -24,7 +24,7 @@
         <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Voltar
       </a>
     </div>
-    <div class="content-ieptb barra-lateral-artigos">
+    <div class="content-ieptb barra-lateral-noticia">
       <?php
         $argLateral = array(
           'post_type'       => 'artigo',
@@ -37,7 +37,7 @@
           <?php while($artigosLateral->have_posts()): $artigosLateral->the_post() ?>
             <li>
               <a href=" <?php the_permalink() ?> ">
-                <i class="fa fa-plus-circle" aria-hidden="true"></i> <?php the_title() ?>
+                <?php the_title() ?>
               </a>
             </li>
           <?php endwhile; ?>
@@ -45,5 +45,6 @@
       </ul>
     </div>
     <div class="clearcontent"></div>
+
   </div>
 <?php get_footer() ?>

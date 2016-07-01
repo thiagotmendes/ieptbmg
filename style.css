@@ -92,14 +92,18 @@ background-color: #ccc;
 .protestar{
 background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/pergunta_3_bg_site_geral_100x100px.png);
 background-repeat: repeat;
+height: 250px;
 }
 .protestar1{
 background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/pergunta_1_bg_site_geral_100x100px.png);
-	background-repeat: repeat;
+background-repeat: repeat;
+height: 250px;
 }
 .protestar2{
 background-image: url(http://stageieptbmg.com.br/site/wp-content/uploads/2016/05/pergunta_2_bg_site_geral_100x100px.png);
-	background-repeat: repeat;
+background-repeat: repeat;
+height: 250px;
+
 }
 .artigos{
  text-align: justify;
@@ -193,19 +197,23 @@ background-color: #ccc inherit;
 }
 
 @media( max-width:640px ){
-.sidebar-menupaginas{
-width: 100%;
-padding: 0;
-float: none;
-}
-.conteudo-paginas{
-width: 100%;
-padding: 0;
-float: none;
-}
-.content-ieptb{
-float: none;
-}
+	.sidebar-menupaginas{
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+	.conteudo-paginas{
+		width: 100%;
+		padding: 0;
+		float: none;
+	}
+	.content-ieptb{
+		float: none;
+	}
+	.img-principal{
+			height: auto !important;
+			overflow: hidden;
+	}
 }
 /******************************************/
 /***************NEWSLETTER*****************/
@@ -277,19 +285,52 @@ padding-top: 10px;
 	cursor:pointer;
 }
 
-.barra-lateral-artigos{
+.barra-lateral-artigos, .barra-lateral-noticia{
 	border-left: #00a4e3 solid 3px;
 	min-height:800px;
 	width: 25%;
-    padding: 0 15px;
+  padding: 0 15px;
+}
+
+.barra-lateral-noticia ul li{
+	border-bottom: #00a4e3 solid 2px;
+	padding: 8px 0;
+}
+
+.barra-lateral-noticia ul li:last-child{
+	border-bottom: transparent solid 2px;
+}
+
+.barra-lateral-noticia ul li a:hover{
+	color: #00a4e3;
+	text-decoration: none;
 }
 
 .barra-lateral-artigos ul li a{
-	
-}	
+	font-family: "Roboto", Arial, Verdana;
+	font-size: 18px;
+	color: #00a4e3;
+	display: block;
+	padding: 0px 8px;
+	margin: 13px 0;
+	border-left: transparent solid 4px;
+	transition-duration: 0.3s
+}
 
-.barra-lateral-artigos ul li a:hover{
-	
+.barra-lateral-artigos ul li a:hover,
+.sidebar-menupaginas a:focus,
+.sidebar-menupaginas .activate a{
+	color: #00a4e3 !important;
+	border-right: #00a4e3 solid 4px;
+	text-decoration: none;
+}
+
+.conteudo-interno{
+	padding: 25px 0;
+}
+
+.coluna-noticia{
+	min-height: 450px;
 }
 
 @media(max-width:640px){
@@ -299,4 +340,8 @@ padding-top: 10px;
 }
 .conteudo-artigo-interno{
 	padding: 30px 0;
+}
+
+#Footer{
+	display: block !important;
 }
