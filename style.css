@@ -330,12 +330,17 @@ padding-top: 10px;
 }
 
 .coluna-noticia{
-	min-height: 450px;
+	height: 450px;
 }
 
+/* se necessário retirar itens do responsivo usar esta media query */
 @media(max-width:640px){
 	.barra-lateral-artigos{
 		display:none;
+	}
+
+	.menutopo ul li{
+		padding: 5px 10px 0 0px !important;
 	}
 }
 .conteudo-artigo-interno{

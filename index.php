@@ -8,6 +8,10 @@
     </div>
       <div class="" style="clear:both"></div>
 	<?php
+    $arg = array(
+      'posts_per_page' => 9,
+    );
+    query_posts($arg);
 		if(have_posts()):
 			while (have_posts()): the_post();
 		?>

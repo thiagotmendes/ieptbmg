@@ -20,7 +20,7 @@
           endwhile;
         endif;
       ?>
-      <a href="<?php echo esc_url( home_url( 'artigos-ieptb-mg' ) ); ?>">
+      <a href="<?php echo esc_url( home_url( 'noticias' ) ); ?>">
         <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Voltar
       </a>
     </div>
