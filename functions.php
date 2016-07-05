@@ -175,6 +175,7 @@ if( ! mfn_opts_get( 'plugin-visual' ) ){
 	}
 }
 
+/******** alterações Thiago e Fábio ************/
 function wp_pagination($pages = '', $range = 9)
 {
     global $wp_query, $wp_rewrite;
@@ -191,3 +192,20 @@ function wp_pagination($pages = '', $range = 9)
     if ( !empty($wp_query->query_vars['s']) ) $pagination['add_args'] = array( 's' => get_query_var( 's' ) );
     echo '<div class="wp_pagination">'.paginate_links( $pagination ).'</div>';
 }
+
+// 	REGISTRA UM NOVO SIDEBAR WIDGET
+if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+        'name' => 'menu-rodape',
+        'before_widget' => '<div class="">',
+        'after_widget' => '</div>',
+        'before_title' => '<div class="><h3 class="">',
+        'after_title' => '</h3></div>',
+    )
+);
+
+/* PARA USAR O WIDGET REGISTRADO
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('NOME-DA-BARRACRIADA') ) :?>
+		<p class="msg-info">Gerencie seus Widgets pelo painel administrativo do Wordpress.</p>
+<?php endif; ?>
+*/

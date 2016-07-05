@@ -318,8 +318,8 @@ padding-top: 10px;
 }
 
 .barra-lateral-artigos ul li a:hover,
-.sidebar-menupaginas a:focus,
-.sidebar-menupaginas .activate a{
+.barra-lateral-artigos a:focus,
+.barra-lateral-artigos .activate a{
 	color: #00a4e3 !important;
 	border-right: #00a4e3 solid 4px;
 	text-decoration: none;
@@ -344,4 +344,67 @@ padding-top: 10px;
 
 #Footer{
 	display: block !important;
+}
+
+/***************************************/
+/********Subheader**********************/
+#Subheader {
+	padding: 0 !important;
+	display: none !important;
+}
+/***************************************/
+/********perguntas frequentes***********/
+.ui-tabs .ui-tabs-nav li a, .accordion .question .title, .faq .question .title, table th {
+	font-size: 18px !important;
+}
+
+.divisor0132{
+padding-top: 50px;
+}
+
+/*****************************************/
+/********** MENU FOOTER *****************/
+.menu-footer {
+	padding: 25px 0 0;
+}
+
+.menu-footer .menu{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu-footer .menu li{
+	float: left;
+	list-style: none;
+	margin: 0 5px;
+}
+
+.menu-footer .menu li a{
+	display: block;
+	float: left;
+	padding:5px 15px;
+	    clear: both;
+	margin: 0px;
+	border-top: 2px solid #00a4e3;
+}
+
+.menu-footer .menu li .sub-menu{
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-footer .menu li .sub-menu li{
+	float: none;
+	display: block;
+  padding: 0 15px;
+	margin: 0 5px;
+}
+
+.menu-footer .menu li .sub-menu li a{
+	color: #000;
+	display: block;
+	padding: 5px;
+	border-top: 0px;
+	font-size: 13px;
 }
