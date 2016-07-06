@@ -36,7 +36,7 @@
           <div class="column_attr" style="">
             <div class="divisor">
 
-              <div class="section_wrapper mcb-section-inner">
+              <div class="section_wrapper mcb-section-inner display-footer">
                 <h3 class="icon-network" style="color: #00a4e3; margin: 0;"><a style="color: #00a4e3;" href="#">Mapa do site</a></h3>
               </div>
 
@@ -73,7 +73,7 @@
         </div>
               </div>
 
-              <div class="column mcb-column two-third">
+              <div class="column mcb-column two-third display-footer">
                 <p style="margin: 0;">© 2016 IEPTB-MG - Todos os direitos reservados.
                 <a href="#" rel="nofollow" target="_blank">Desenvolvido e pensado por nós!</a></p>
               </div>
